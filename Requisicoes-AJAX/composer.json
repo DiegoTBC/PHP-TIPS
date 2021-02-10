@@ -1,0 +1,27 @@
+{
+    "name": "diegotorres/mvc",
+    "description": "Estrutura MVC",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Torres",
+            "email": "torressdiiego@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": [
+            "config/Config.php",
+            "config/globalFunctions.php"
+        ]
+    },
+    "require": {
+        "php": "^7.2",
+        "coffeecode/datalayer": "1.1.*",
+        "ext-pdo": "*",
+        "coffeecode/router": "1.0.*",
+        "league/plates": "^3.4"
+    }
+}
